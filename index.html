@@ -3,28 +3,17 @@
   <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">    
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
+    <script src="test.js"></script>
     <title>React App</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script>
-   fetch("http://87.92.70.41:3000/log",{
-      method: "POST",
-      headers: new Headers({"Content-Type": "application/json"}),
-      body: JSON.stringify({name:"Mina"}),
-      referrerPolicy: "unsafe-url" 
-    }).then(response => response.json())
-      .then(responsejson => {
-      console.log(responsejson);
-     }); 
-      
-    </script>
+    <div id="root">asdfsdfa</div>
+     
   </body>
 </html>
